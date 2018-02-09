@@ -11,6 +11,12 @@ categories = ["external-ffi-bindings", "development-tools::ffi"]
 repository = "https://github.com/eqrion/cbindgen/"
 exclude = ["test.py", "tests/**"]
 
+[profile.dev]
+rpath = true
+
+[profile.release]
+rpath = true
+
 [badges]
 travis-ci = { repository = "eqrion/cbindgen" }
 

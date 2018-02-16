@@ -34,3 +34,8 @@ doc = false
 [lib]
 name = "cbindgen"
 path = "src/lib.rs"
+
+[replace]
+"proc-macro2:0.2.1" = { git = "https://github.com/staktrace/rustc-ap-proc-macro2", branch = "rustc-ap-0.2.1" }
+"quote:0.4.2" = { git = "https://github.com/staktrace/rustc-ap-quote", branch = "rustc-ap-0.4.2" }
+"syn:0.12.10" = { git = "https://github.com/staktrace/rustc-ap-syn", branch = "rustc-ap-0.12.10" }
